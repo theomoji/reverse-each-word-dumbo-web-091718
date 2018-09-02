@@ -6,10 +6,8 @@
     new_string += word[index-1]
     index -= 1
   end
-  return new_string
+  # return new_string
 end
-
-
 
 def reverse_each_word(string)
   string_arr = sentence.split(" ")
