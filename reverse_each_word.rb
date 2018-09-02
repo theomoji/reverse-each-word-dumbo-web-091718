@@ -23,7 +23,7 @@ def reverse_each_word(sentence)
   string_arr = sentence.split(" ")
   # reverse_arr = []
   reversed = string_arr.collect do |word|
-    reverse_arr << reverse_word(word)
+      reverse_word(word)
   end
   return reversed.join(" ")
 end
