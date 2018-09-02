@@ -6,4 +6,5 @@ def reverse_each_word(string)
   # new_string = string[index] + new_string #"e" + "h"
     index -= 1
   end
-end 
+  return new_string
+end
