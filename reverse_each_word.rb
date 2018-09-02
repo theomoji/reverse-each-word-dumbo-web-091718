@@ -9,7 +9,7 @@
   return new_string
 end
 
-def reverse_each_word(string)
+def reverse_each_word(sentence)
   string_arr = sentence.split(" ")
   reverse_arr = []
   string_arr.each do |word|
