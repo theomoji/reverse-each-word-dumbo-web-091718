@@ -1,19 +1,21 @@
-def reverse_each_word(string)
-  new_array = []
+
+ def reverse_word(word)
   new_string = ""
-  index = string.length
+  index = word.length
   while index > 0
-    new_string << string[index-1]
-  # new_string = string[index] + new_string #"e" + "h"
+    new_string += word[index-1]
     index -= 1
   end
-  index = string.length
-  new_string = new_string.split
-  while index > new_array.length
-    new_array << new_string.push
-    index += 1
-  end
-  return new_array
+  return new_string
 end
 
-p reverse_each_word("Hello there sir")
+
+
+def reverse_each_word(string)
+  string_arr = sentence.split(" ")
+  reverse_arr = []
+  string_arr.each do |word|
+    reverse_arr << reverse_word(word)
+  end
+  return reverse_arr.join(" ")
+end
