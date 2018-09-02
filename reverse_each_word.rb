@@ -12,8 +12,8 @@ def reverse_each_word(string)
   while index > 0
     new_array << new_string.push
     index -= 1
-  end 
+  end
   return new_array
 end
 
-p reverse_each_word("Hello there")
+p reverse_each_word("Hello there sir")
