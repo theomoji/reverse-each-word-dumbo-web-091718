@@ -25,5 +25,5 @@ def reverse_each_word(sentence)
   reversed = string_arr.collect do |word|
       reverse_word(word)
   end
-  return reversed.join(" ")
+  reversed.join(" ")
 end
