@@ -9,7 +9,7 @@ def reverse_each_word(string)
   end
   index = string.length
   new_string = new_string.split
-  while index < string.length
+  while index > new_array.length
     new_array << new_string.push
     index += 1
   end
