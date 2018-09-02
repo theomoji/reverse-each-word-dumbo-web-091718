@@ -1,5 +1,4 @@
-
- def reverse_word(word)
+def reverse_word(word)
   new_string = ""
   index = word.length
   while index > 0
