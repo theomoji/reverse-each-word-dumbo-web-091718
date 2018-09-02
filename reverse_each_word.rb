@@ -7,8 +7,13 @@ def reverse_each_word(string)
   # new_string = string[index] + new_string #"e" + "h"
     index -= 1
   end
+  index = string.length
   new_string = new_string.split
-  return new_string 
+  while index > 0
+    new_array << new_string.push
+    index -= 1
+  end 
+  return new_array
 end
 
 p reverse_each_word("Hello there")
