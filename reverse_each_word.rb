@@ -8,3 +8,5 @@ def reverse_each_word(string)
   end
   return new_string.split
 end
+
+puts reverse_each_word("Hello there")
